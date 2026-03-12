@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "npm install",
+			"type": "shell",
+			"command": "npm install"
+		},
+		{
+			"label": "install-deps",
+			"type": "shell",
+			"command": "npm install 2>&1; echo INSTALL_COMPLETE"
+		},
+		{
+			"label": "install-deps",
+			"type": "shell",
+			"command": "npm install"
+		}
+	]
+}
